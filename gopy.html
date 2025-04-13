@@ -8,7 +8,30 @@
       background-color: #f25f1b;
       font-family: Arial, sans-serif;
       color: white;
-      padding: 40px;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .form-wrapper {
+      padding: 40px 20px;
       text-align: center;
     }
 
@@ -42,12 +65,30 @@
     input[type="submit"]:hover {
       background-color: #d94b0f;
     }
+
+    footer {
+      margin-top: 50px;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
 
+<header>
   <h1>Góp Ý</h1>
+</header>
 
+<nav>
+  <a href="index.html">Trang chủ</a>
+  <a href="gioithieu.html">Giới thiệu</a>
+  <a href="lienhe.html">Liên hệ</a>
+  <a href="gopy.html">Góp ý</a>
+</nav>
+
+<div class="form-wrapper">
   <form action="#" method="post">
     <label for="name">Họ và tên:</label><br>
     <input type="text" id="name" name="name" required><br>
@@ -60,15 +101,11 @@
 
     <input type="submit" value="Gửi góp ý">
   </form>
+</div>
+
+<footer>
+  &copy; 2025 FPT Education. All rights reserved.
+</footer>
 
 </body>
 </html>
-
-<nav>
-    <a href="index.html">Trang chủ</a>
-    <a href="gioithieu.html">Giới thiệu</a>
-    <a href="lienhe.html">Liên hệ</a>
-    <a href="gopy.html">Góp ý</a>
-  </nav>
-
-
